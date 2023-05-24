@@ -17,7 +17,7 @@ import {TopMenu } from "./header/topMenu";
 //menu template
 import {CenterdMenu} from "./menus/CenterdMenu";
 
-//sections 
+//sections
 import { IntroSection } from "./sections/intro";
 import { LatestBlogPosts } from "./sections/latestBlogPosts";
 import { Testimonial } from "./sections/testimonial";
@@ -38,11 +38,10 @@ import {ExperiencesBox } from "./widgets/experiencesBox";
 
 
 //blog
-import {Post} from "./blog/post";
 import {FullWidthImage} from "./elements/fullwidthimage";
 export {
     CallToAction,
-    PricingList, 
+    PricingList,
     Counter,
     CircularProgress,
     PricingTable,
@@ -59,7 +58,6 @@ export {
     Testimonial,
     Footer,
     ContactFrom,
-    Post,
     FullWidthImage,
     SkillsBox ,ExperiencesBox
 }

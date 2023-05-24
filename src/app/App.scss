@@ -17,9 +17,11 @@
     --menu-bg-color: #000000eb;
 }
 
+
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500&family=Outfit:wght@300;400;500;600;700&display=swap');
 body {
     font-weight: 300;
+    cursor: crosshair;
     font-family: 'Outfit', sans-serif;
     height: 100%;
     overflow-x: hidden;

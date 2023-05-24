@@ -12,9 +12,9 @@ const Home = () => {
   return (
     <BasicLayout footer>
       <IntroSection />
-      <LatestProjectsSwiper />
+      {/* <LatestProjectsSwiper />
       <Testimonial />
-      <LatestBlogPosts />
+      <LatestBlogPosts /> */}
     </BasicLayout>
   );
 };

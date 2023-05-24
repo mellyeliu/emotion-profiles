@@ -3,7 +3,9 @@ import styled from "styled-components";
 import { useTypingText } from "../../hooks/useTypingtext";
 
 
+
 const Div1 = styled.div`
+cursor: crosshair;
 display: table-cell;
 vertical-align: middle;
 table-layout: fixed;
@@ -28,7 +30,7 @@ const Introh1 = styled.h1`
 
 export const IntroSection = () => {
     const { word, stop, start ,color } = useTypingText(
-        ["adipiscing", "consectetur", "dolor"],
+        ["happy", "sad", "angry"],
         130,
         20,
       );
@@ -37,9 +39,9 @@ export const IntroSection = () => {
             <div className="d-table w-100 text-start text-lg-center">
                 <Div1>
                     <div className="container">
-                        <Introh1>Lorem ipsum dolor sit amet<br />
-                        consectetur adipiscing <br />
-                        elit. Aenean. {word}</Introh1>
+
+
+                        <Introh1>what do your emotions look like? {word}</Introh1>
                     </div>
                 </Div1>
             </div>

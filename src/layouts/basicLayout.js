@@ -3,6 +3,7 @@ import { HeaderTop, Footer } from "../components";
 import styled from "styled-components";
 
 const Layout = styled.div`
+  cursor: crosshair;
   ${(props) =>
     props.top
       ? `padding-top:60px;
@@ -16,7 +17,7 @@ export const BasicLayout = (props) => {
   return (
     <Layout top={props.paddingTop}>
       {props.children}
-      {props.footer && <Footer />}
+      {/* {props.footer && <Footer />} */}
     </Layout>
   );
 };

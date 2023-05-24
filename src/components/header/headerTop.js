@@ -20,7 +20,7 @@ const Header = styled.header`
   transition: background-color 300ms linear,transform .4s cubic-bezier(0,0,.58,1);
   ${(props) =>
     props.scrolled ? "transform: translateY(-100px);opacity:0.6" : ""};
-  
+
   @media screen and (max-width: 992px){
     min-height: 60px;
     height: 60px;
@@ -32,7 +32,7 @@ const Header = styled.header`
   }
   ${(props) =>
     !props.mop ? "transform: translateY(0px) !important;opacity:1;" : ""};
-  
+
 `;
 
 export const HeaderTop = (props) => {
@@ -60,7 +60,6 @@ export const HeaderTop = (props) => {
   return (
     <>
       <Header scrolled={isScrolled} mop={isActive}>
-        <Logo logotext={props.logotext}></Logo>
 
         {/* <FollowButton>
         <span>Share</span>
@@ -70,7 +69,7 @@ export const HeaderTop = (props) => {
         <MenuButton func={handleToggle} isActive={isActive} />
       </Header>
       <CenterdMenu isActive={isActive} set={handleToggle} />
-      <ThemeSwitcher1 theme={props.theme} />
+      {/* <ThemeSwitcher1 theme={props.theme} /> */}
     </>
   );
 };
